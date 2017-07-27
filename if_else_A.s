@@ -8,8 +8,8 @@ if_else:
 	subl	$4, %esp
 	cmpl	$0, 8(%ebp)
 	jle	.L2
-	cmpl	$29, 12(%ebp)
-	jle	.L3
+	cmpl	$10, 12(%ebp)
+	jg	.L3
 	movl	$0, -4(%ebp)
 	jmp	.L5
 .L3:
