@@ -19,3 +19,12 @@
 [简书](http://jianshu.com)
 [百度](http://baidu.com)
 <a href="https://www.baidu.com/" target="_blank">百度</a>
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
